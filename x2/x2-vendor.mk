@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/leeco/x2
 
 PRODUCT_COPY_FILES += \
-    vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -50,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/x2/proprietary/vendor/bin/charger:$(TARGET_COPY_OUT_VENDOR)/bin/charger \
+    vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Bluetooth_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_General_cal.acdb \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/max_plus/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/max_plus/MTP_Global_cal.acdb \
@@ -165,10 +165,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sony_imx230_plus_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx230_plus_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmm-qdcm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm-diag.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so
+    vendor/leeco/x2/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 PRODUCT_PACKAGES += \
     QFingerprintService

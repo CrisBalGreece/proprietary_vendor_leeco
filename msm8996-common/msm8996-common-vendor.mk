@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/leeco/msm8996-common/proprietary/product/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/dpmapi.xml \
     vendor/leeco/msm8996-common/proprietary/product/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/leeco/msm8996-common/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/leeco/msm8996-common/proprietary/product/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qti.dpmframework.jar \
     vendor/leeco/msm8996-common/proprietary/product/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/leeco/msm8996-common/proprietary/product/framework/dpmapi.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/dpmapi.jar \

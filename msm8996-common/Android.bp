@@ -97,16 +97,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "uceShimService",
-	owner: "leeco",
-	apk: "proprietary/app/uceShimService/uceShimService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "leeco",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
@@ -121,17 +111,6 @@ android_app_import {
 	name: "com.qualcomm.location",
 	owner: "leeco",
 	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "ims",
-	owner: "leeco",
-	apk: "proprietary/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -195,9 +174,32 @@ android_app_import {
 }
 
 android_app_import {
+	name: "uceShimService",
+	owner: "leeco",
+	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "dpmserviceapp",
 	owner: "leeco",
 	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "ims",
+	owner: "leeco",
+	apk: "proprietary/product/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

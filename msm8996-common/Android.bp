@@ -174,9 +174,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ims",
+	name: "dpmserviceapp",
 	owner: "leeco",
-	apk: "proprietary/product/priv-app/ims/ims.apk",
+	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -186,9 +186,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "dpmserviceapp",
+	name: "ims",
 	owner: "leeco",
-	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
+	apk: "proprietary/product/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

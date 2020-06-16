@@ -694,7 +694,7 @@ PRODUCT_PACKAGES += \
     imssettings \
     uceShimService \
     PowerOffAlarm \
-    qcrilmsgtunnel \
     dpmserviceapp \
     ims \
+    qcrilmsgtunnel \
     WfdCommon

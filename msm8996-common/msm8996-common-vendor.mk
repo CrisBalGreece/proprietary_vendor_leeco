@@ -679,7 +679,7 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     uceShimService \
     PowerOffAlarm \
-    qcrilmsgtunnel \
     dpmserviceapp \
     ims \
+    qcrilmsgtunnel \
     WfdCommon

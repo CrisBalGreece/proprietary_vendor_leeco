@@ -74,16 +74,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
-}
 
-android_app_import {
-	name: "LetvCamera",
-	owner: "leeco",
-	apk: "proprietary/product/priv-app/LetvCamera/LetvCamera.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 }
 
 android_app_import {

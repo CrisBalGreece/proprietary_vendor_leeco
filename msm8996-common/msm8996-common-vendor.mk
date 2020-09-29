@@ -664,7 +664,6 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
-    LetvCamera \
     LetvRemoteControl \
     UEIQuicksetSDKLeTV \
     WfdService \

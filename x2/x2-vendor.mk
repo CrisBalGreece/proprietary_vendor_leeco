@@ -42,6 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml \
+    vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_ofilm_qhd_dualdsi_cmd_pvt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_ofilm_qhd_dualdsi_cmd_pvt.xml \
+    vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_boe_qhd_dualdsi_cmd_pvt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_boe_qhd_dualdsi_cmd_pvt.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/x2/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/leeco/x2/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \

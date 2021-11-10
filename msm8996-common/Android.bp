@@ -66,26 +66,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libtime_genoff",
-	owner: "leeco",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libloc_api_v02",
 	owner: "leeco",
 	strip: {
@@ -223,13 +203,6 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.hardware.alarm-V1.0-java",
-	owner: "leeco",
-	jars: ["proprietary/product/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
-	product_specific: true,
 }
 
 dex_import {

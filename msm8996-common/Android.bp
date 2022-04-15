@@ -87,6 +87,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "LetvRemoteControl",
+	owner: "leeco",
+	apk: "proprietary/system/app/LetvRemoteControl/LetvRemoteControl.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},	
+	
+}
+
+android_app_import {
 	name: "IWlanService",
 	owner: "leeco",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",

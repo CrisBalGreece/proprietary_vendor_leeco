@@ -588,6 +588,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     UEIQuicksetSDKLeTV \
+    LetvRemoteControl \
     CneApp \
     IWlanService \
     TimeService \

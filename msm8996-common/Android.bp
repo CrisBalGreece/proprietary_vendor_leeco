@@ -73,7 +73,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	system_specific: true,
 }
 
 android_app_import {
@@ -84,7 +83,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	system_specific: true,
 }
 
 android_app_import {
